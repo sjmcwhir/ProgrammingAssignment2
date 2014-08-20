@@ -50,7 +50,7 @@ cacheSolve <- function(x, ...) {
     inv <- x$getInv()
     
     # if cached, return cached value
-    if (!isNull(inv)){
+    if (!is.Null(inv)){
         message("getting cached data")
         return(inv)
     }
